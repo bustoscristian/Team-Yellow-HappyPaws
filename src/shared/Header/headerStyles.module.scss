@@ -1,0 +1,18 @@
+.boxContainer{
+
+  .gridContainer{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    
+
+    & .gridItemLogoContainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+}
+
+}

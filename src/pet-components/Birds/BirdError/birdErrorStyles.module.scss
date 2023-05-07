@@ -1,0 +1,20 @@
+.boxContainer{
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: center;
+
+  & .textErrorContainer{
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  & .errorImage{
+    height: 350px; 
+    width: 350px;
+  }
+
+}

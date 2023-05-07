@@ -1,0 +1,34 @@
+.boxContainer{
+  margin-top: 20px;
+
+  & > .gridContainer{
+    display: flex;
+    flex-direction: column;
+
+    & > .gridItemTitleContainer{
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+
+      & > .footerTitle {
+        font-family: "Inter";
+        font-weight: "bold";
+      }
+
+    }
+
+    & > .gridItemImagesContainer{
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      height: 45px;
+      align-items: center;
+      
+    }
+
+  }
+
+}
+
+
+
